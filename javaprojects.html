@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="myweb.css" rel="stylesheet" type="text/css" />
+    <script src="/web.js"></script>
+    <script>
+      window.onload = function changeopacity() {
+        document.getElementById("content").style.opacity = "1";
+      };
+    </script>
+    <title>javaprojects</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <h1 id="logo">
+        <span class="text">David Villa</span>
+      </h1>
+
+      <p>&nbsp;</p>
+      <div id="nav">
+        <p>
+          <a href="index.html">Home</a>
+          <a href="javaprojects.html">Java Projects</a>
+        </p>
+      </div>
+
+      <button onclick="diplayContactApp()">Contact App</button>
+      <button onclick="diplayCasino()">Casino Game</button>
+      <button onclick="diplayLinkedList()">Linked List Ex.</button>
+      <div id="content"></div>
+
+      <div id="footer"></div>
+    </div>
+  </body>
+</html>
